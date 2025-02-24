@@ -3,11 +3,168 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="css\landingpage.css" >
+    <title>Fur & Friends</title>
 </head>
 <body>
-    <a>
-    <img src="pictures\maltese-portrait.jpg">
-    </a>
+    <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 fixed-top">
+        <div class="container">
+            <a href="/html\index.html" class="navbar-brand">Fur & Freinds</a>
+            <button class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="html\daycare.html" class="nav-link">Daycare</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="html\grooming.html" class="nav-link">Grooming & Booking</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="html\about.html" class="nav-link">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="bg-light text-dark p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>Fur <span class="text-danger">& Friends</span></h1>
+                    <p class="lead my-4">
+                    Welcome to Fur & Freinds! A place your dog loves and you can trust. 
+                    </p>
+                </div>
+                <img class="img-fluid w-50 d-none d-sm-block" src="/pictures\DogDaycare.jpg" alt="">
+            </div>
+        </div>
+    </section>
+        
+
+    <section class="bg-dark text-light p-5">
+        <div class="container">
+            <div class="d-md-flex align-items-center justify-content-between">
+                <h3 class="mb-3 mb-md-0">Sign Up For Woof Weekly</h3>
+                <div class="input-group news-input">
+                    <input type="text" class="form-control" placeholder="Enter Email" >
+                    <button class="btn btn-danger btn-lg" type="button" >Submit</button>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="p-5">
+        <div class="container">
+            <div class="row text-center g-4">
+                <h2 id="offer">What we offer</h2>
+                <br>
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-heart"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Daycare
+                            </h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur facilis impedit voluptatem nisi. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-secondary text-light">
+                    <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                            <i class="bi bi-heart"></i>
+                        </div>
+                        <h3 class="card-title mb-3">
+                            Grooming
+                        </h3>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur facilis impedit voluptatem nisi.
+                        </p>
+                    </div>
+                </div>
+            </div>
+                
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-heart"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Puppy Courses
+                            </h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur facilis impedit voluptatem nisi.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews" class="p-5">
+        <div class="container">
+            <h3 id="h3rev" class="text-center mb-4">Reviews</h3>
+    
+            <div class="reviewtext">
+                <div class="row align-items-center mb-4">
+                    <div class="col-md-8">
+                        <p>"Cupiditate ab cum quis itaque omnis debitis beatae voluptas! Deserunt, quas esse? Doloremque nam maiores alias omnis est sapiente officiis repudiandae?" <br> <br> - Fido, Golden Retriever 5 years old</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <img class="review-img" src="/pictures/fido.jpg" alt="Picture of Fido">
+                    </div>
+                </div>
+    
+                <div class="row align-items-center mb-4 flex-row-reverse">
+                    <div class="col-md-8">
+                        <p>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime architecto placeat optio, debitis cumque labore necessitatibus tempore, saepe impedit distinctio temporibus quam enim ex reprehenderit pariatur alias, repellat accusamus perferendis!" <br> <br> - Selma, Poodle 2 years old</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <img class="review-img" src="/pictures/selma.jpg" alt="Picture of Selma">
+                    </div>
+                </div>
+    
+                <div class="row align-items-center mb-4">
+                    <div class="col-md-8">
+                        <p>"Maxime architecto placeat optio, debitis cumque labore necessitatibus tempore, saepe impedit distinctio temporibus quam enim ex reprehenderit pariatur alias, repellat accusamus perferendis!" <br> <br> - Pluto, Border Collie 1 year old</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <img class="review-img" src="/pictures/pluto.jpg" alt="Picture of Pluto">
+                    </div>
+                </div>
+    
+                <div class="row align-items-center mb-4 flex-row-reverse">
+                    <div class="col-md-8">
+                        <p>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, tempore!!" <br> <br> - Nosha, Corgi, 11 years old</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <img class="review-img" src="/pictures/nosha.jpg" alt="Picture of Nosha">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

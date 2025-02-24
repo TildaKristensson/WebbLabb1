@@ -1,0 +1,39 @@
+.daycare {
+    padding: 150px;
+}
+
+.daycareTitle {
+    color: rgb(26, 104, 78);
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.daycareP {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 70px !important;
+}
+
+#Outside {
+    background-color: rgb(182, 245, 180);
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+    width: 500px;
+}
+
+
+.daycareInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 55px;
+    margin-right: 55px;
+}
+
+.daycareContainer {
+    background-color: rgb(193, 238, 191);
+}
+

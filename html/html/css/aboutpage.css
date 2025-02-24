@@ -1,0 +1,64 @@
+h2, h3, .lead    {
+    text-align: center;
+}
+
+#questions {
+    background-color: aliceblue;
+}
+
+iframe {
+    margin-left: 70px;
+}
+
+.reviewtext {
+    font-style: italic;
+    margin-top: 40px;
+}
+
+.contact-form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-form .form-label {
+    font-weight: 500;
+    color: #555;
+}
+
+.contact-form .form-control {
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 1rem;
+    transition: 0.3s ease-in-out;
+}
+
+.contact-form .form-control:focus {
+    border-color: rgb(153, 41, 228);
+    box-shadow: 0 0 5px rgb(153, 41, 228);
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: rgb(233, 78, 199);
+    transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+    background: rgb(153, 41, 228);
+}
