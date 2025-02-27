@@ -1,10 +1,10 @@
 
 const products = [
-    {name: "Basic trimming and styling", price: 250, image: "/pictures/basic.jpg"},
-    {name: "Complex trimming and styling", price: 300, image: "/pictures/complex.jpg"},
-    {name: "Bath & Trim", price: 450, image: "/pictures/bath.jpg"},
-    {name: "Nail Clipping", price: 185, image: "/pictures/nail.jpg"},
-    {name: "Full Grooming", price: 575, image: "/pictures/full.jpg"},
+    {name: "Basic trimming and styling", price: 250, image: "../../pictures/basic.jpg"},
+    {name: "Complex trimming and styling", price: 300, image: "../../pictures/complex.jpg"},
+    {name: "Bath & Trim", price: 450, image: "../../pictures/bath.jpg"},
+    {name: "Nail Clipping", price: 185, image: "../../pictures/nail.jpg"},
+    {name: "Full Grooming", price: 575, image: "../../pictures/full.jpg"},
 
 ];
 
